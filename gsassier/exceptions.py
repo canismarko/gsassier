@@ -1,0 +1,2 @@
+class GSASIINotFound(ImportError):
+    pass
