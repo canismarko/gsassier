@@ -10,7 +10,7 @@ with codecs_open('README.rst', encoding='utf-8') as f:
 setup(
     name='gsassier',
     version='0.0.1',
-    description=u"GSAS-II: Gsassier!",
+    description="GSAS-II: Gsassier!",
     long_description=long_description,
     classifiers=[],
     keywords='',
@@ -21,9 +21,10 @@ setup(
     packages=find_packages(exclude=['doc', 'ez_setup', 'examples', 'tests']),
     include_package_data=True,
     zip_safe=False,
-    # install_requires=[
-    #     'click'
-    # ],
+    install_requires=[
+        'numpy',
+        'scipy',
+    ],
     # extras_require={
     #     'test': ['pytest'],
     # },
